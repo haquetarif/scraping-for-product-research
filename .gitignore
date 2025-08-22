@@ -1,3 +1,13 @@
 woocommerce_extensions.csv
 woocommerce_extensions.xlsx
 venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store
