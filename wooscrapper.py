@@ -196,7 +196,7 @@ def write_files(extensions: List[Extension]) -> None:
 
 
 def main() -> None:
-    RUN_FULL_SCRAPE = False  # set True to hit the API
+    RUN_FULL_SCRAPE = True  # set True to hit the API
     if RUN_FULL_SCRAPE:
         print("Fetching extensions from WooCommerce API...")
         exts = fetch_extensions()
